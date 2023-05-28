@@ -1,9 +1,5 @@
 name: Events Demo1
-on:
-  pull_request:
-    types: 
-      - opened
-  workflow_dispatch:
+on: workflow_dispatch:
 jobs: 
   deploy:
     runs-on: ubuntu-latest
